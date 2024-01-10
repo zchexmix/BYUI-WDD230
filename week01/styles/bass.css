@@ -6,8 +6,8 @@ body {
     background-color: #EFE9F4;
 }
 header {
-    background-color: #2E6171;
-    color: #110B11;
+    background-color: #453643;
+    color: #EFE9F4;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -44,7 +44,7 @@ main {
     font-size: 20px;
 }
 #colorone {
-    background-color: #2E6171;
+    background-color: #453643;
     
     color: #fff;
 }
