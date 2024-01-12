@@ -1,4 +1,4 @@
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 480px) {
     main {
         grid-template-columns: 1fr 1fr;
     }
@@ -6,12 +6,19 @@
         display: flex;
         text-align: center;
     }
-    .navbar a {
+    .navbar a  {
+        text-align: center;
+    }
+    .navbar li {
+        display: block;
         text-align: center;
         width: 100%;
     }
     main h1 {
         grid-column: 1/4;
+    }
+    #menu {
+        display: none;
     }
     
 }
