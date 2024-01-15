@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Exo+2:wght@200&display=swap');
 body {
     background-color: #F2E2D2;
+    font-family: Exo, Arial, Helvetica, sans-serif;
 }
 header {
     max-width: 100%;
@@ -13,7 +14,7 @@ header  h1 {
     
     color: #fff;
     text-align: center;
-    
+    font-family: Arvo, Arial, Helvetica, sans-serif;
     height: 55px;
 }
 main {
@@ -87,6 +88,9 @@ main {
     border-radius: 15px;
     box-shadow: 0 0 5px #fff;
 }
+.card h2 {
+    font-family: Arvo, Arial, Helvetica, sans-serif;
+}
 
 /* -------- Menu Button ---------- */
 #menu {
@@ -113,7 +117,8 @@ footer {
     margin: auto;
 }
 footer p {
+    color: #fff;
     margin: auto;
-    padding: 30px;
-    
+    padding: 40px;
+    font-size: 1.2rem;
 }
