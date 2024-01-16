@@ -1,0 +1,32 @@
+header {
+    margin: auto;
+    padding:  25px;
+    background-color: skyblue;
+}
+header h1 {
+    text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+main img {
+    margin: 70px auto;
+    animation: fade 20s;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {   
+        opacity: 1;
+    }
+}
+footer {
+    margin: 0 auto;
+    padding: 25px;
+    background-color: skyblue;
+    text-align: center;
+}
