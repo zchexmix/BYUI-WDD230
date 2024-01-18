@@ -37,14 +37,14 @@
     <main>
         <div class="hero">
             <picture>
-                <source srcset="images/london-temple-small.webp" media="(max-width: 480px)">
+                <source srcset="images/london-temple-small.webp" media="(width: 480px)">
                 <img src="images/london-temple-large.webp" alt="London England Temple" width="960" height="600">
             </picture>
-            <div class="hero-label">
-                <p>Bountiful, Utah</p>
+            <div id="hero-label" class="hero-label">
+                <p>London, England</p>
             </div>
         </div>
-        <h1>WDD 230: Web Frontend Development B</h1>
+        <h1>WDD 230: Web Frontend Development</h1>
         
         <section class="card">
             <h2>Learning Activities</h2>
@@ -59,8 +59,13 @@
         <section class="card">
             <h2>Information</h2>
             <p>Weather</p>
-            <p>Number of Visits</p>
+            <p><span class="visit-label">Number of Visits: </span><span class="visits"></span></p>
         </section>
+        <div class="map">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9944.799411219748!2d-0.1413745149204285!3d51.45448700270684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876043442c14ccb%3A0x5df20c102ecfb887!2sClapham%2C%20London!5e0!3m2!1sen!2suk!4v1705600095686!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
     </main>
     <footer>
         <p id="footer"></p>

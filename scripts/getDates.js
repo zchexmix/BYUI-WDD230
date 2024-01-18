@@ -25,3 +25,19 @@ darkBtn.addEventListener('click', () => {
     darkBtn.classList.toggle('dark');
     hambutton.classList.toggle('dark');
 });
+
+
+const visits = document.querySelector('.visits');
+
+let numVisits = Number(window.localStorage.getItem("visits-ls")) || 0;
+
+if (numVisits !== 0) {
+	visits.textContent = numVisits;
+} else {
+	visits.textContent = `You're a first time visitor! Welcome!`;
+
+}
+numVisits++;
+
+localStorage.setItem("numVisits-ls", numVisits);
+

@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
     main {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
     }
     .navbar {
         display: flex;
@@ -15,10 +15,21 @@
         width: 100%;
     }
     main h1 {
-        grid-column: 1/4;
+        grid-column: 1/3;
     }
     #menu {
         display: none;
     }
-    
+    footer {
+        grid-column: 1/3;
+    }
+    .hero {
+        grid-column: 1/3;
+    }
+    main.dark {
+        padding: 30px;
+    }
+    .map {
+        grid-column: 1/3;
+    }
 }
