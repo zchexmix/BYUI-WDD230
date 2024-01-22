@@ -3,16 +3,19 @@ body {
     background-color: #ced1d0;
     font-family: Exo, Arial, Helvetica, sans-serif;
 }
+h1, h2 {
+    font-family: Arvo, Arial, Helvetica, sans-serif;
+}
 header {
     max-width: 100%;
     margin: 0 auto;
-    background-color: #2E6171;
+    background-color: #6cbbd3;
     padding: 20px;
     /* border-radius: 10px; */
 }
 header  h1 {
     
-    color: #fff;
+    color: #000;
     text-align: center;
     font-family: Arvo, Arial, Helvetica, sans-serif;
     height: 55px;
@@ -32,6 +35,7 @@ main {
     padding: 20px;
     margin:  auto;
     font-size: 1.2rem;
+    border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     /* color: #2E6171; */
     /* background-color: #11B5E4; */
@@ -111,14 +115,14 @@ main {
     padding: 20px;
 }
 footer {
-    background-color: #2E6171;
+    background-color: #6cbbd3;
     display: flex;
     max-width: 100%;
     text-align: center;
     margin: auto;
 }
 footer p {
-    color: #fff;
+    color: #000;
     margin: auto;
     padding: 40px;
     font-size: 1.2rem;
@@ -131,24 +135,21 @@ footer p {
 #discover-main {
     display: grid;
     grid-template-columns: 1fr;
-    font-family: Exo, Arial, Helvetica, sans-serif
+    font-family: Exo, Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 #discover-main h1 {
     font-family: Arvo, Arial, Helvetica, sans-serif;
 }
-.sidecard {
+.sidebar {
     text-align: center;
+    /* width: 450px; */
 }
-
-
-
+.sidecard h2 {
+    color: #;
+}
 .hide {
     display: none;
-    transition: display 5s;
-    transition-timing-function: linear;
-
-    position: relative;
-    left: 7px;
     margin: 5px;
     padding: 10px;
     color: #fff;
@@ -160,26 +161,42 @@ footer p {
     box-shadow: 0 0 5px #111;
     z-index: 1;
 }
-  
 .action {
     padding: 20px;
     font-family: Exo, Arial, Helvetica, sans-serif;
     position: relative;
+    text-align: center;
+    color: #000;
 }
 .action:hover {
-    color: wheat;
+    color: navy;
 } 
 .action:hover + .hide {
     display: block;
     
-    
 }
-
+#actioncall {
+    position: absolute;
+    font-size: 120%;
+    left: 38%;
+    right: 38%;
+    top: 17rem;
+    text-decoration: none;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 15px;
+    opacity: 70%;
+    color: #000;
+    text-align: center;
+}
 .photoDiv {
     background-color: #A4A8D1;
     padding: 20px;
     border-radius: 20px;
     margin: 10px;
+}
+.photoDiv picture {
+    text-align: center;
 }
 .photoDiv img {
     width: 100%;
@@ -187,24 +204,34 @@ footer p {
     margin: 10px;
     border: 1px solid #fff;
 }
-
 #tip {
     font-size: 12px;
-    color: #fff;
+    color: #000;
     margin-top: -14px;
 }
 .pic-hide {
     display: none;
-    position: relative;
-    left: 5%;
-    color: #2F6171;
-    background-color: #C2E7DA;
+    text-align: center;
+    text-decoration: underline;
+    color: #ffffff;
+    background-color: #000000;
     padding: 10px;
-    width: fit-content;
+    width: 40%;
     opacity: 90%;
     border-radius: 10px;
 }
 .photoDiv picture:hover + .pic-hide {
     display: block;
 
+}
+.sidecard {
+    width: 250px;
+    background-color: #5dd03aa7;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 40px auto;
+    text-align: center;
+}
+.dunno {
+    text-align: center;
 }
