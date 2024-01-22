@@ -182,7 +182,8 @@ footer p {
     margin: 10px;
 }
 .photoDiv img {
-    max-width: 80%;
+    width: 100%;
+    height: auto;
     margin: 10px;
     border: 1px solid #fff;
 }
