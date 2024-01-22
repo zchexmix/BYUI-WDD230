@@ -101,10 +101,10 @@ main {
     text-decoration: none;
 }
 #menu::before {
-    content: "ðŸ”’";
+    content: '⭕️';
 }
 #menu.show::before {
-    content: 'ðŸ”“';
+    content: '❌';
 }
 .show li {
     display: block;
@@ -136,7 +136,9 @@ footer p {
 #discover-main h1 {
     font-family: Arvo, Arial, Helvetica, sans-serif;
 }
-
+.sidecard {
+    text-align: center;
+}
 
 
 
@@ -146,13 +148,13 @@ footer p {
     transition-timing-function: linear;
 
     position: relative;
-    /* left: 200px;
-    top: -120px; */
+    left: 7px;
     margin: 5px;
     padding: 10px;
     color: #fff;
     background-color: grey;
-    width: fit-content;
+    text-align: center;
+    width: 200px;
     border: 2px solid #222;
     border-radius: 20px;
     box-shadow: 0 0 5px #111;
@@ -179,8 +181,29 @@ footer p {
     border-radius: 20px;
     margin: 10px;
 }
+.photoDiv img {
+    max-width: 80%;
+    margin: 10px;
+    border: 1px solid #fff;
+}
+
 #tip {
     font-size: 12px;
     color: #fff;
     margin-top: -14px;
+}
+.pic-hide {
+    display: none;
+    position: relative;
+    left: 5%;
+    color: #2F6171;
+    background-color: #C2E7DA;
+    padding: 10px;
+    width: fit-content;
+    opacity: 90%;
+    border-radius: 10px;
+}
+.photoDiv picture:hover + .pic-hide {
+    display: block;
+
 }

@@ -29,3 +29,36 @@ hambutton.addEventListener('click', () => {
     nav.classList.toggle('show');
     hambutton.classList.toggle('show');
 });
+
+
+const visits = document.querySelector('.visits');
+
+if (typeof(Storage) !== "undefined") {
+
+  var lastVisit = localStorage.getItem("lastVisit");
+
+  if (lastVisit) {
+      
+      var timeDifference = Date.now() - new Date(lastVisit).getTime();
+      
+      var daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+      if (daysDifference === 0) {
+          visits.textContent= ("Back so soon! Awesome!");
+      } else {
+          if (daysDifference === 1) {
+              visits.textContent = ("You last visited 1 day ago.");
+          } else {
+              visits.textContent = ("You last visited " + daysDifference + " days ago.");
+          }
+      }
+  } else {
+      visits.textContent = ("Welcome! Let us know if you have any questions.");
+  }
+
+  
+  localStorage.setItem("lastVisit", new Date().toISOString());
+} else {
+  
+  visits.textContent = ("Sorry, your browser does not support localStorage.");
+}
