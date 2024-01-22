@@ -145,8 +145,9 @@ footer p {
     text-align: center;
     /* width: 450px; */
 }
-.sidecard h2 {
-    color: #;
+.card-title {
+    text-align: center;
+    border-bottom: 1px solid #fff;
 }
 .hide {
     display: none;
