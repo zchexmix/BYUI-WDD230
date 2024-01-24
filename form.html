@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zach Checketts - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="zach checketts">
+    <meta name="description" content="Built by Zachary Checketts this is the Home Page for the course assignment portal inside of WDD 230 - Web Frontend Development.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Zachs Home Page for WDD230">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.citysparespace.com/wp-content/uploads/2023/02/london.jpeg">
+    <meta property="og:url" content="https://zchexmix.github.io/wdd230/">
+    <meta name="twitter:card" content="summary_large_image">
+
+</head>
+<body>
+    <header class="header">
+        <img id="headimg" src="images/header.webp" alt="Picture of me">
+        <span id="name" >Zach Checketts</span>
+        <a id="darkmode"></a>
+        <p  id="darktitle">Dark</p>
+    </header>
+    <nav>
+        <a id="menu" href="#"></a>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site-plan</a></li>
+            <li><a href="form.html">Form</a></li> 
+        </ul>
+    </nav>
+    
+    <main>
+        <div id="formmessage"></div>
+        <h1>Subscribe to my page</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Enter Your Information Here:</legend>
+                <label class="top">Username*<input type="text" name="name" required></label>
+                <label class="top">Password*<input type="password" name="pwd" id="password-one" required pattern="[A-Za-z]{8, 20}" title="Minimum 8 Characters"</label>
+                <label class="top">Password(repeated)*<input type="password" name="pwd" id="password-two" required pattern="[A-Za-z]{8, 20}" title="Minimum 8 Characters"</label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid emaill with a BYUI.edu domain" required></label>
+                
+                <label class="top">Page Rating<input type="range" name="r" id="r" min="1" max="10" value="1" step="1" list="rangevalues" required>
+                    <datalist id="rangevalues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                    <div id="rangevalue">1</div>
+                </label>
+            </fieldset>
+            <input type="submit" class="submitBtn" value="Propose My Course">
+        </form>
+    </main>
+    <footer>
+        <p id="footer"></p>
+        <p id="lastmodified">Last Modified: </p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

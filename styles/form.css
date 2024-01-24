@@ -1,0 +1,63 @@
+:root {
+    --border: hsla(0, 0%, 100%, 0.8);
+	--borderlight: hsla(0,0%,33%,.3);
+    --backlight: hsl(96, 100%, 30%);
+}
+
+
+form fieldset {
+    margin: 2rem;
+    border: 2px solid var(--borderlight);
+    border-radius: 10px;    
+    padding: .5rem 2%;
+}
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: thin solid var(--border);
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.3);
+}
+form label.top input:focus {
+    background-color: rgba(0, 0, 0,0.1);
+}
+#rangevalues {
+	display: flex;
+	width: 300px;
+    margin: 0 0 0 -5px;
+}
+#rangevalues option {
+	flex: 1 1 auto;
+    margin: 0 0 0 20.5px;
+}
+#rangevalue {
+    font-size: 2rem;
+    margin: 0 0 0 10px;
+    color: #555;
+}
+.submitBtn {
+    border: 1px solid var(--border);
+    box-shadow: var(--borderlight);
+    background-color: var(--backlight);
+    color: #333;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 4%;
+    width: 96%;
+    max-width: 20rem;
+}

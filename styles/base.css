@@ -186,3 +186,12 @@ footer {
     width:100%;
     position:absolute;
 }
+
+
+
+/* -------------- Thanks.html--------------- */
+.thanks-main {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
