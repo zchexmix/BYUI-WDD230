@@ -55,7 +55,7 @@ form label.top input:focus {
 }
 .submitBtn {
     border: 1px solid var(--border);
-    box-shadow: var(--borderlight);
+    box-shadow: 0 0 3px var(--borderlight);
     background-color: var(--backlight);
     color: #333;
     border-radius: 1rem;
