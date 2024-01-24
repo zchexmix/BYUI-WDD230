@@ -4,7 +4,10 @@
     --backlight: hsl(96, 100%, 30%);
 }
 
-
+main h1{
+    text-align: left;
+    margin-left: 15%;
+}
 form fieldset {
     margin: 2rem;
     border: 2px solid var(--borderlight);
