@@ -45,8 +45,8 @@
                 <label class="top">Password*<input type="password" name="pwd" id="password-one" required pattern="[A-Za-z]{8, 20}" title="Minimum 8 Characters"></label>
                 <label class="top">Password(repeated)*<input type="password" name="pwd" id="password-two" required pattern="[A-Za-z]{8, 20}" title="Minimum 8 Characters"></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="someone@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid emaill with a BYUI.edu domain" required></label>
-                
-                <label class="top">Page Rating<input type="range" name="r" id="r" min="1" max="10" value="1" step="1" list="rangevalues" required>
+                <div id="rangevalue">1</div>
+                <label class="top">Page Rating<input type="range" name="r" id="r" min="1" max="10" value="1" step="1" list="rangevalues">
                     <datalist id="rangevalues">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -59,7 +59,7 @@
                         <option value="9">9</option>
                         <option value="10">10</option>
                     </datalist>
-                    <div id="rangevalue">1</div>
+                    
                 </label>
             </fieldset>
             <input type="submit" class="submitBtn" value="Propose My Course">
