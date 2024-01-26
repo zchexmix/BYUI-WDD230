@@ -291,6 +291,10 @@ form label.sbs {
     padding-left: .75rem;
     text-align: left;
 }
+#timestamp {
+    margin: 10px auto;
+    font-size: 10px;
+}
 .submitBtn {
     border: 2px solid #445ba9;
     box-shadow: 0 0 3px #fff;

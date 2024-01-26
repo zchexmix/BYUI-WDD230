@@ -53,6 +53,7 @@ form label.top input:focus {
     margin: 0 0 0 10px;
     color: #555;
 }
+
 .submitBtn {
     border: 1px solid var(--border);
     box-shadow: 0 0 3px var(--borderlight);
