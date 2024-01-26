@@ -48,6 +48,48 @@
     }
     
 
+
+
     
+    /* ------------- Form / Join -------------- */
+    #form-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #formmessage {
+        grid-column: 1/2;
+        text-align: center;
+    }
+   
+    form {
+        grid-column: 1/2;
+    }
+
+    .membership-div {
+        display: block;
+        grid-column: 2/3;
+    }
+    .member {
+        border-radius: 20px;
+        box-shadow: 0 0 3px #fff;
+        margin: 50px auto;
+        /* padding: 20px; */
+        width: 20rem;
+        height: auto;
+        background-color: #00ffe1;
+    }
+    .hide-div {
+        display: none;
+    }
+    .member h3  {
+        padding: 50px;
+    }
+    .member:hover {
+        transform: scale(1.1);
+    }
+    .member h3:hover + .hide-div {
+        display: block;
+        
+    }
 
 }

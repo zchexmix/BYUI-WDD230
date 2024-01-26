@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Chamber of Commerce</title>
+    <meta name="author" content="zach checketts">
+    <meta name="description" content="This is the Chamber of Commerce Join Us site for Bountiful Utah created by Zach Checketts for BYUI wdd230 - front end developement">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon1.ico">
+    <meta property="og:title" content="Bountiful Utah Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.neighbor.com/storage-blog/wp-content/uploads/2018/09/wasatch-mountain-range-marilyn-hunt.jpg">
+    <meta property="og:url" content="https://zchexmix.github.io/wdd230/chamber/join.html">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+    <header>
+        <h1>Bountiful Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <a id="menu" href="#"></a>
+        <ul class="navbar" id="navbuttons">
+            <li class="navbtn active"><a href="index.html">Home</a></li>
+            <li class="navbtn"><a href="discover.html">Discover</a></li>
+            <li class="navbtn"><a href="directory.html">Directory</a></li>
+            <li class="navbtn"><a href="join.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main id="form-main">
+        <div id="formmessage"></div>
+        <h1 id="main-title">Join our Community</h1>
+        <form  id="form" method="get" action="thankyou.html">
+            <fieldset>
+                <legend>General Information:</legend>
+                <label class="top"> First Name*<input type="text" name="fname" id="first-name" required></label>
+                <label class="top"> Last Name*<input type="text" name="lname" id="last-name" required></label>
+                <label class="top"> Title*<input type="text" name="title" id="title" pattern=""></label>
+                <label class="top"> Email*<input type="email" name="email" id="email" required></label>
+                <label class="top"> Phone*<input type="tel" name="phone" id="phone" required></label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Your Organization</legend>
+                <label class="top">Organization Name*<input type="text" name="biz" id="biz" required></label>
+                <div>Membership Level</div>
+                <label class="sbs"><input type="radio" name="level" value="non-profit"> Non-Profit</label>
+                <label class="sbs"><input type="radio" name="level" value="Bronze"> Bronze</label>
+                <label class="sbs"><input type="radio" name="level" value="Silver"> Silver</label>
+                <label class="sbs"><input type="radio" name="level" value="Gold"> Gold</label>
+
+                <label class="top">Organization Description:<textarea rows="7" cols="50" type="text" name="description" id="description"></textarea>
+                <div >
+                    <label type="hidden" name="timestamp" id="timestamp"></label>
+                </div>
+            </fieldset>
+            <input type="submit" class="submitBtn" value="Register My Business">
+        </form>
+        <div class="membership-div">
+            <h2>Membership Levels and Benefits</h2>
+            <section class="member">
+                <h3>Non Profit</h3>
+                <div class="hide-div">Test 1</div>
+            </section>
+            <section class="member">
+                <h3>Bronze</h3>
+                <div class="hide-div">Test 2</div>
+            </section>
+            <section class="member">
+                <h3>Silver</h3>
+                <div class="hide-div">Test 3</div>
+            </section>
+            <section class="member">
+                <h3>Gold</h3>
+                <div class="hide-div">Test 4</div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p id="footer"></p>
+        <p id="lastmodified">Last Modified: </p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/join.js"></script>
+</body>
+</html>

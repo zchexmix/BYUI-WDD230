@@ -88,11 +88,10 @@ form label.top input {
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
-form label.sbs {
+form label.sbs input {
     display: block;
     padding: .75rem;
     color: #555;
-
 }
 form input.submitBtn {
     border: none;
