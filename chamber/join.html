@@ -38,7 +38,7 @@
                 <legend>General Information:</legend>
                 <label class="top"> First Name*<input type="text" name="fname" id="first-name" required></label>
                 <label class="top"> Last Name*<input type="text" name="lname" id="last-name" required></label>
-                <label class="top"> Title*<input type="text" name="title" id="title" pattern=""></label>
+                <label class="top"> Title*<input type="text" name="title" id="title" pattern="[A-Za-z\s-]{7,}$"></label>
                 <label class="top"> Email*<input type="email" name="email" id="email" required></label>
                 <label class="top"> Phone*<input type="tel" name="phone" id="phone" required></label>
                 
@@ -62,30 +62,30 @@
         <div class="membership-div">
             <h2>Membership Levels and Benefits</h2>
             <section class="member">
-                <h3>Non Profit</h3>
+                <h3 id="np">Non Profit</h3>
                 <div class="hide-div">
                     <p>As a Non Profit memeber you will be able to benefit from several aspects of Joining! Invitations to special trainings, free advertising as a Spotlight Member on the home page, and major discounts to all of our events!</p>
                     <p>Free of Charge</p>
                  </div>
             </section>
             <section class="member">
-                <h3>Bronze</h3>
+                <h3 id="bronze">Bronze</h3>
                 <div class="hide-div">
-                    <p></p>
+                    <p>The Bronze membership is a base package including 1 special training per month, A spotlight position for 1 week of each month, and limited discounts to our events!</p>
                     <p>£100 / Month</p>
                 </div>
             </section>
             <section class="member">
-                <h3>Silver</h3>
+                <h3 id="silver">Silver</h3>
                 <div class="hide-div">
-                    <p></p>
+                    <p>The Silver membership includes 3 trainings per mont, a spotlight position for 2 weeks of the month, discounts on our events, and it includes invitation to our annual networking event!</p>
                     <p>£200 / Month</p>
                 </div>
             </section>
             <section class="member">
-                <h3>Gold</h3>
+                <h3 id="gold">Gold</h3>
                 <div class="hide-div">
-                    <p></p>
+                    <p>The gold membership includes a permanant spotlight position on our webiste, includes Invitationsto all out events and activities, and names you as a sponsor for each of our events. You will be included in all training, networking and helps, including discounts to all events.</p>
                     <p>£300 / Month</p>
                 </div>
             </section>
