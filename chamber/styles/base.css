@@ -298,8 +298,8 @@ form label.sbs {
 .submitBtn {
     border: 2px solid #445ba9;
     box-shadow: 0 0 3px #fff;
-    background-color: #00ffe1;
-    color: #445ba9;
+    background-color: #11a4ffb6;
+    color: #000000;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 5rem 4%;
@@ -310,6 +310,7 @@ form label.sbs {
     box-shadow: 0 0 5px #6cbbd3;
     border: none;
     transform: scale(1.1);
+    font-weight: bold;
 }
 
 .membership-div {
