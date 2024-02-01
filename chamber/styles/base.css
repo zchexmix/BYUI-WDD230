@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Exo+2:wght@200&display=swap');
 body {
-    background-color: #E3E6FF;
+    background-color: #fff;
     font-family: Exo, Arial, Helvetica, sans-serif;
 }
 h1, h2 {
@@ -27,6 +27,7 @@ main {
     max-width: 1060px;
     margin: auto;
     text-align: center;
+    background-color: #fff;
 }
 .navbar {
     display: block;
@@ -281,10 +282,10 @@ form label.top input, form label.top select, form label.top textarea {
     color: #555;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0,0,0,0.15);
+    background-color: rgba(0,0,0,0.2);
 }
 form label.top input:focus, form label.top textarea:focus {
-    background-color: rgba(255, 255, 255, 0.355);
+    background-color: rgb(255, 255, 255);
 }
 form label.sbs {
     display: block;

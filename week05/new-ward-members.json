@@ -1,0 +1,43 @@
+{
+    "family name" : "Checketts",
+    "Move-in date" : "12/20/01",
+    "Number of members" : 7,
+    "Bishopric Visit" : true,
+    "members" : [
+        {
+          "name" : "Dan",
+          "gender" : "Male",
+          "birthday" : "May 28, 1958"
+        },
+        {
+          "name" : "Ginny",
+          "gender" : "female",
+          "birthday" : "Dec 30, 1960"
+        },
+        {
+          "name" : "Chris",
+          "gender" : "male",
+          "birthday" : "April 28 1986"
+        },
+        {
+            "name" : "Matt",
+            "gender" : "male",
+            "birthday" : "July 13, 1988"
+        },
+        {
+            "name" : "Ryam",
+            "gender" : "male",
+            "birthday" : "March 2, 1992"
+        },
+        {
+            "name" : "Zach",
+            "gender" : "male",
+            "birthday" : "Feb 13, 1995"
+        },
+        {
+            "name" : "Tim",
+            "gender" : "male",
+            "birthday" : "Nov 30, 1998"
+          }
+    ]
+}

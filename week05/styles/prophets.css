@@ -1,0 +1,41 @@
+.grid {
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(340px, 1fr));
+    grid-gap: 20px;
+}
+body {
+    background-color: skyblue;
+}
+section {
+    background-color: navy;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 3px navy;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+}
+section img {
+   border-radius: 50px;
+}
+#cards h2 {
+    text-align: center;
+}
+header, footer {
+    padding: 20px;
+    text-align: center;
+    background-color: navy;
+    color: #fff;
+    border-radius: 50px;
+}
+header {
+    margin-bottom: 20px;
+}
+header h1 {
+    margin: auto;
+    background-color: skyblue;
+    color: #000;
+    max-width: 20rem;
+    border-radius: 50px;
+    border: 1px solid #fff;
+}

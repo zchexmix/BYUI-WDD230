@@ -1,12 +1,16 @@
 :root {
     --border: hsla(0, 0%, 100%, 0.8);
-	--borderlight: hsla(0,0%,33%,.3);
+	--borderlight: hsl(271, 92%, 20%);
     --backlight: hsl(96, 100%, 30%);
 }
 
 main h1{
     text-align: left;
-    margin-left: 15%;
+    margin-left: 5%;
+}
+form {
+    grid-column: 1/3;
+    max-width: 500px;
 }
 form fieldset {
     margin: 2rem;
@@ -30,14 +34,17 @@ form label.top input, form label.top select {
     font-size: 1rem;
     border: thin solid var(--border);
     border-radius: 4px;
-    padding: .75rem;
+    padding: .55rem;
     color: #555;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.1);
 }
 form label.top input:focus {
-    background-color: rgba(0, 0, 0,0.1);
+    background-color: rgba(220, 231, 255, 0.651);
+}
+#formmessage {
+    position: relative;
 }
 #rangevalues {
 	display: flex;
@@ -49,7 +56,7 @@ form label.top input:focus {
     margin: 0 0 0 20.5px;
 }
 #rangevalue {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0 0 0 10px;
     color: #555;
 }
@@ -64,4 +71,7 @@ form label.top input:focus {
     margin: 0 0 2rem 4%;
     width: 96%;
     max-width: 20rem;
+}
+form fieldset.dark {
+    color: #fff;
 }
