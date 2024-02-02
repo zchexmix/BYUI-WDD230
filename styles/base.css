@@ -75,6 +75,14 @@ main h1 {
     list-style: none;
     text-align: left;
 }
+#assignment-list li a {
+    text-decoration: none;
+    color: #000;
+}
+#assignment-list li a:hover {
+    color: #090C9B;
+    text-decoration: underline;
+}
 .card h2 {
     font-family: Oswald, Arial, Helvetica, sans-serif;
 }
