@@ -1,0 +1,119 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"week01/holygrail.html",
+            "title":"Holy Grail"
+          },
+          {
+            "url":"week01/media-query.html",
+            "title":"Media Query"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url":"week02/design.html",
+            "title":"Design Practice"
+          },
+          {
+            "url":"https://codepen.io/z_chexmix/pen/YzgGbGy",
+            "title":"Hamburger CodePen"
+          },
+          {
+            "url":"week02/bom.html",
+            "title":"BoM"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url":"week03/images/w3landscape.webp",
+            "title":".Webp"
+          },
+          {
+            "url":"week03/lazyloading.html",
+            "title":"Lazy Loading"
+          },
+          {
+            "url":"week03/responsive-images.html",
+            "title":"Responsive Images"
+          },
+          {
+            "url":"week03/bom.html",
+            "title":"BoM Enhanced"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url":"https://codepen.io/z_chexmix/pen/bGZrNym",
+            "title":"Psuedo Classes"
+          },
+          {
+            "url":"week04/images/css-combinators.png",
+            "title":"CSS Combinators Quiz"
+          },
+          {
+            "url":"week04/table-build.html",
+            "title":"Table Activity"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url":"https://codepen.io/z_chexmix/pen/GReQVZP",
+            "title":"Psuedo-Elements"
+          },
+          {
+            "url":"week05/new-ward-members.json",
+            "title":"New Members JSON"
+          },
+          {
+            "url":"week05/prophets.html",
+            "title":"Prophets"
+          },
+          {
+            "url":"week05/weather.html",
+            "title":"Weather API"
+          }
+        ]
+      },
+      {
+        "week": "Week 6",
+        "links": [
+          {
+            "url":"",
+            "title":""
+          },
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      },
+      {
+        "week": "Week 7",
+        "links": [
+          {
+            "url":"",
+            "title":""
+          },
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      },
+    ]}
+}
