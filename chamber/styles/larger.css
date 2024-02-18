@@ -14,6 +14,50 @@
     .hero {
         grid-column: 1/3;  
     }
+    .card {
+        height: 250px;
+    }
+    #currentevents {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-color: rgba(99, 216, 255, 0.656);
+    }
+    #spotlight {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        background-color: rgba(99, 216, 255, 0.656);
+    }
+    #weathercard {
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 20rem 1fr;
+        background-color: navy;
+    }
+    #current-weather h2 {
+        grid-column: 1/3;
+    }
+    #forecast h2 {
+        text-align: center;
+        width: 100%;
+    }
+    .forecast {
+        border: solid 1px #000;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 0 5px #000;
+        background-color: #fff;
+        color: #000;
+    }
+    #forecastsect {
+        display: flex;
+    }
+    /* #day-one {
+        text-align: left;
+    }
+    #day-three {
+        text-align: right;
+    } */
     
 
     

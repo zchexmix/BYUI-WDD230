@@ -1,15 +1,16 @@
-articleElement = document.querySelector('.members');
-url = "https://zchexmix.github.io/wdd230/chamber/data/members.json";
+const articleElement = document.querySelector('.members');
+let membersUrl = "https://zchexmix.github.io/wdd230/chamber/data/members.json";
 
 async function getMembers() {
     try {
     
-        const response = await fetch(url);
+        const response = await fetch(membersUrl);
 
         if (response.ok) {
             const data = await response.json();
             console.log(data);
             displayMembers(data.members);
+            displaySpotlights(data.members);
         } else {
 
             throw new Error(`Error: ${response.statusText}`);
@@ -58,4 +59,6 @@ const displayMembers = (members)=> {
 
     });
 }
+
+
 
