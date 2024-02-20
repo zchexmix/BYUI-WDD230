@@ -11,7 +11,7 @@ async function getMembers() {
             const data = await response.json();
             // console.log(data);
             const filteredMembers = data.members.filter((member) => member.membership === 'Gold Membership' || member.membership === 'Silver Membership');
-            console.log(filteredMembers);
+            // console.log(filteredMembers);
             const selectedMembers = selectRandomMembers(filteredMembers, 2);
             displaySpotlights(selectedMembers);
             

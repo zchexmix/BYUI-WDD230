@@ -8,7 +8,7 @@ async function getMembers() {
 
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
+            // console.log(data);
             displayMembers(data.members);
             displaySpotlights(data.members);
         } else {

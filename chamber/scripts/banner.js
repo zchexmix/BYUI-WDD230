@@ -35,6 +35,6 @@ function displayBanner() {
         });
     }
 }
-console.log('Hello Worlddddddddd');
+// console.log('Hello Worlddddddddd');
 
 window.onload = displayBanner;
