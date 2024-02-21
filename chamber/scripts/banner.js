@@ -3,7 +3,7 @@ const bannerDiv = document.querySelector('#bannerdiv')
 function isBannerDay() {
     const today = new Date();
     const dayOfWeek = today.getDay(); 
-    return dayOfWeek >= 1 && dayOfWeek <= 6; 
+    return dayOfWeek >= 1 && dayOfWeek <= 3; 
 }
 
 
